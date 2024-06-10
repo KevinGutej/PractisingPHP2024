@@ -62,4 +62,23 @@ class Fraction {
     }
 }
 
+$fractionOne = new Fraction(1, 2);
+$fractionTwo = new Fraction(1, 3);
+
+echo "Fraction One: " . $fractionOne . "\n";
+echo "Fraction Two: " . $fractionTwo . "\n";
+
+$sum = $fractionOne->add($fractionTwo);
+echo "Sum: " . $sum . "\n";
+
+$difference = $fractionOne->subtract($fractionTwo);
+echo "Difference: " . $difference . "\n";
+
+$product = $fractionOne->multiply($fractionTwo);
+echo "Product: " . $product . "\n";
+
+$quotient = $fractionOne->divide($fractionTwo);
+echo "Quotient: " . $quotient . "\n";
+
+
 ?>
